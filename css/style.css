@@ -5,7 +5,13 @@
   box-sizing: border-box;
 }
 /* /reset */
+
 /* pagina */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .container {
   background-color: red;
   margin: auto;
@@ -18,7 +24,6 @@
   background-color: pink;
   height: 60px;
   width: 100%;
-  border: 1px solid black;
   margin-bottom: 10px;
 }
 /* /header */
@@ -39,6 +44,24 @@ section.corpo {
 
 section.corpo .head {
   background-color: lightblue;
+  height: 15%;
+  margin-bottom: 1%;
+}
 
+.row {
+  height: 100%;
+  width: 100%;
+}
+
+div.colonne {
+  background-color: lightblue;
+  width: 25%;
+  height: 80%;
+  float: left;
+}
+
+div.colonne.central {
+  width: 48%;
+  margin: 0 1%;
 }
 /* /main */
