@@ -13,7 +13,6 @@
   clear: both;
 }
 .container {
-  background-color: red;
   margin: auto;
   width: 60%;
 }
@@ -65,3 +64,10 @@ div.colonne.central {
   margin: 0 1%;
 }
 /* /main */
+
+footer {
+  background-color: purple;
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+}
